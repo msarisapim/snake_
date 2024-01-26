@@ -1,0 +1,8 @@
+path: C:/Users/msari/Research/Project/snake/dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: hand

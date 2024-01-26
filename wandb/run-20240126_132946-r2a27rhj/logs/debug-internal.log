@@ -1,0 +1,205 @@
+2024-01-26 13:29:46,388 INFO    StreamThr :17492 [internal.py:wandb_internal():89] W&B internal server running at pid: 17492, started at: 2024-01-26 13:29:46.388481
+2024-01-26 13:29:46,392 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: status
+2024-01-26 13:29:46,394 INFO    WriterThread:17492 [datastore.py:open_for_write():87] open: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\run-r2a27rhj.wandb
+2024-01-26 13:29:46,394 DEBUG   SenderThread:17492 [sender.py:send():382] send: header
+2024-01-26 13:29:46,429 DEBUG   SenderThread:17492 [sender.py:send():382] send: run
+2024-01-26 13:29:47,444 INFO    SenderThread:17492 [dir_watcher.py:__init__():211] watching files in: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files
+2024-01-26 13:29:47,444 INFO    SenderThread:17492 [sender.py:_start_run_threads():1139] run started: r2a27rhj with start time 1706250586.39048
+2024-01-26 13:29:47,454 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: check_version
+2024-01-26 13:29:47,455 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: check_version
+2024-01-26 13:29:47,735 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: run_start
+2024-01-26 13:29:47,760 DEBUG   HandlerThread:17492 [system_info.py:__init__():27] System info init
+2024-01-26 13:29:47,761 DEBUG   HandlerThread:17492 [system_info.py:__init__():42] System info init done
+2024-01-26 13:29:47,761 INFO    HandlerThread:17492 [system_monitor.py:start():194] Starting system monitor
+2024-01-26 13:29:47,761 INFO    SystemMonitor:17492 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-26 13:29:47,761 INFO    HandlerThread:17492 [system_monitor.py:probe():214] Collecting system info
+2024-01-26 13:29:47,769 INFO    SystemMonitor:17492 [interfaces.py:start():190] Started cpu monitoring
+2024-01-26 13:29:47,771 INFO    SystemMonitor:17492 [interfaces.py:start():190] Started disk monitoring
+2024-01-26 13:29:47,772 INFO    SystemMonitor:17492 [interfaces.py:start():190] Started gpu monitoring
+2024-01-26 13:29:47,783 INFO    SystemMonitor:17492 [interfaces.py:start():190] Started memory monitoring
+2024-01-26 13:29:47,788 DEBUG   HandlerThread:17492 [system_info.py:probe():151] Probing system
+2024-01-26 13:29:47,797 INFO    SystemMonitor:17492 [interfaces.py:start():190] Started network monitoring
+2024-01-26 13:29:47,799 DEBUG   HandlerThread:17492 [system_info.py:_probe_git():136] Probing git
+2024-01-26 13:29:47,894 DEBUG   HandlerThread:17492 [system_info.py:_probe_git():144] Probing git done
+2024-01-26 13:29:47,894 DEBUG   HandlerThread:17492 [system_info.py:probe():199] Probing system done
+2024-01-26 13:29:47,894 DEBUG   HandlerThread:17492 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.7.12', 'heartbeatAt': '2024-01-26T06:29:47.797499', 'startedAt': '2024-01-26T06:29:46.384480', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\msari\\Research\\Project\\snake\\handtrack.py', 'codePathLocal': 'handtrack.py', 'codePath': 'handtrack.py', 'git': {'remote': 'https://github.com/msarisapim/snake_game.git', 'commit': 'e45f660002e9733770ae847adce2e1e033ff1dff'}, 'email': 'msarisapim@gmail.com', 'root': 'C:/Users/msari/Research/Project/snake', 'host': 'PimDesktop', 'username': 'msari', 'executable': 'C:\\Users\\msari\\.conda\\envs\\pc_regist_o3d\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 3400.0, 'min': 0.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 3400.0, 'min': 0.0, 'max': 3400.0}], 'disk': {'/': {'total': 930.7529258728027, 'used': 550.3900032043457}}, 'gpu': 'NVIDIA GeForce RTX 3060 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Ti', 'memory_total': 8589934592}], 'memory': {'total': 31.747356414794922}}
+2024-01-26 13:29:47,894 INFO    HandlerThread:17492 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-26 13:29:47,894 INFO    HandlerThread:17492 [system_monitor.py:probe():227] Publishing system info
+2024-01-26 13:29:47,894 DEBUG   HandlerThread:17492 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-01-26 13:29:47,896 ERROR   HandlerThread:17492 [system_info.py:_save_conda():219] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\msari\.conda\envs\pc_regist_o3d\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 216, in _save_conda
+    ["conda", "env", "export"], stdout=f, stderr=subprocess.DEVNULL
+  File "C:\Users\msari\.conda\envs\pc_regist_o3d\lib\subprocess.py", line 339, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\msari\.conda\envs\pc_regist_o3d\lib\subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\msari\.conda\envs\pc_regist_o3d\lib\subprocess.py", line 1207, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2024-01-26 13:29:47,897 DEBUG   HandlerThread:17492 [system_info.py:_save_conda():220] Saving conda packages done
+2024-01-26 13:29:47,897 INFO    HandlerThread:17492 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-26 13:29:47,906 DEBUG   SenderThread:17492 [sender.py:send():382] send: files
+2024-01-26 13:29:47,906 INFO    SenderThread:17492 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-26 13:29:47,912 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-26 13:29:47,913 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: python_packages
+2024-01-26 13:29:47,913 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-26 13:29:47,914 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: stop_status
+2024-01-26 13:29:47,915 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-26 13:29:48,244 DEBUG   SenderThread:17492 [sender.py:send():382] send: telemetry
+2024-01-26 13:29:48,457 INFO    Thread-16 :17492 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\requirements.txt
+2024-01-26 13:29:48,457 INFO    Thread-16 :17492 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\output.log
+2024-01-26 13:29:48,458 INFO    Thread-16 :17492 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\conda-environment.yaml
+2024-01-26 13:29:48,458 INFO    Thread-16 :17492 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\wandb-metadata.json
+2024-01-26 13:29:49,376 INFO    wandb-upload_0:17492 [upload_job.py:push():131] Uploaded file C:\Users\msari\AppData\Local\Temp\tmpw2fs0uh4wandb\hlrznyd3-wandb-metadata.json
+2024-01-26 13:29:50,485 INFO    Thread-16 :17492 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\output.log
+2024-01-26 13:29:52,266 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: status_report
+2024-01-26 13:29:52,460 DEBUG   SenderThread:17492 [sender.py:send():382] send: exit
+2024-01-26 13:29:52,460 INFO    SenderThread:17492 [sender.py:send_exit():589] handling exit code: 1
+2024-01-26 13:29:52,461 INFO    SenderThread:17492 [sender.py:send_exit():591] handling runtime: 4
+2024-01-26 13:29:52,461 INFO    SenderThread:17492 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-26 13:29:52,462 INFO    SenderThread:17492 [sender.py:send_exit():597] send defer
+2024-01-26 13:29:52,462 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:52,462 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-26 13:29:52,462 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:52,462 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-26 13:29:52,462 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 1
+2024-01-26 13:29:52,462 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:52,462 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-26 13:29:52,463 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:52,463 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-26 13:29:52,463 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 2
+2024-01-26 13:29:52,463 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:52,463 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-26 13:29:52,463 INFO    HandlerThread:17492 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-26 13:29:52,463 DEBUG   SystemMonitor:17492 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-26 13:29:52,463 DEBUG   SystemMonitor:17492 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-26 13:29:52,463 DEBUG   SystemMonitor:17492 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-26 13:29:52,464 INFO    HandlerThread:17492 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-26 13:29:52,489 INFO    HandlerThread:17492 [interfaces.py:finish():202] Joined disk monitor
+2024-01-26 13:29:52,509 INFO    Thread-16 :17492 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\wandb-summary.json
+2024-01-26 13:29:52,534 INFO    HandlerThread:17492 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-26 13:29:52,534 INFO    HandlerThread:17492 [interfaces.py:finish():202] Joined memory monitor
+2024-01-26 13:29:52,535 INFO    HandlerThread:17492 [interfaces.py:finish():202] Joined network monitor
+2024-01-26 13:29:52,535 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:52,535 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-26 13:29:52,535 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 3
+2024-01-26 13:29:52,535 DEBUG   SenderThread:17492 [sender.py:send():382] send: stats
+2024-01-26 13:29:52,535 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:52,536 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-26 13:29:52,536 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:52,536 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-26 13:29:52,536 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 4
+2024-01-26 13:29:52,536 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:52,536 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-26 13:29:52,536 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:52,537 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-26 13:29:52,537 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 5
+2024-01-26 13:29:52,537 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:52,537 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-26 13:29:52,537 DEBUG   SenderThread:17492 [sender.py:send():382] send: summary
+2024-01-26 13:29:52,538 INFO    SenderThread:17492 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-26 13:29:52,538 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:52,538 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-26 13:29:52,538 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 6
+2024-01-26 13:29:52,538 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:52,538 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-26 13:29:52,538 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:52,538 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-26 13:29:52,543 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: status_report
+2024-01-26 13:29:52,855 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 7
+2024-01-26 13:29:52,855 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:52,855 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-26 13:29:52,855 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:52,856 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-26 13:29:53,471 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-26 13:29:53,519 INFO    Thread-16 :17492 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\config.yaml
+2024-01-26 13:29:53,519 INFO    Thread-16 :17492 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\wandb-summary.json
+2024-01-26 13:29:54,289 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 8
+2024-01-26 13:29:54,289 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: poll_exit
+2024-01-26 13:29:54,289 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:54,289 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-26 13:29:54,290 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:54,290 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-26 13:29:54,290 INFO    SenderThread:17492 [job_builder.py:build():296] Attempting to build job artifact
+2024-01-26 13:29:54,291 INFO    SenderThread:17492 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-01-26 13:29:54,365 INFO    SenderThread:17492 [job_builder.py:build():402] adding wandb-job metadata file
+2024-01-26 13:29:54,381 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 9
+2024-01-26 13:29:54,382 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:54,382 DEBUG   SenderThread:17492 [sender.py:send():382] send: artifact
+2024-01-26 13:29:54,382 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-26 13:29:54,484 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-26 13:29:54,532 INFO    Thread-16 :17492 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\output.log
+2024-01-26 13:29:57,351 INFO    wandb-upload_0:17492 [upload_job.py:push():89] Uploaded file C:\Users\msari\AppData\Local\wandb\wandb\artifacts\staging\tmpfuis6y12
+2024-01-26 13:29:57,357 INFO    wandb-upload_1:17492 [upload_job.py:push():89] Uploaded file C:\Users\msari\AppData\Local\wandb\wandb\artifacts\staging\tmp2cpflu41
+2024-01-26 13:29:59,380 INFO    SenderThread:17492 [sender.py:send_artifact():1494] sent artifact job-https___github.com_msarisapim_snake_game.git_handtrack.py - {'id': 'QXJ0aWZhY3Q6NzAzNjkwMzEx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzMzk0Mjc3Nw==', 'latestArtifact': None}}
+2024-01-26 13:29:59,380 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:59,380 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-26 13:29:59,380 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: status_report
+2024-01-26 13:29:59,380 INFO    SenderThread:17492 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-26 13:29:59,546 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-26 13:29:59,594 INFO    SenderThread:17492 [dir_watcher.py:finish():388] scan: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files
+2024-01-26 13:29:59,594 INFO    SenderThread:17492 [dir_watcher.py:finish():402] scan save: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\conda-environment.yaml conda-environment.yaml
+2024-01-26 13:29:59,595 INFO    SenderThread:17492 [dir_watcher.py:finish():402] scan save: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\config.yaml config.yaml
+2024-01-26 13:29:59,595 INFO    SenderThread:17492 [dir_watcher.py:finish():402] scan save: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\output.log output.log
+2024-01-26 13:29:59,597 INFO    SenderThread:17492 [dir_watcher.py:finish():402] scan save: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\requirements.txt requirements.txt
+2024-01-26 13:29:59,599 INFO    SenderThread:17492 [dir_watcher.py:finish():402] scan save: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\wandb-metadata.json wandb-metadata.json
+2024-01-26 13:29:59,599 INFO    SenderThread:17492 [dir_watcher.py:finish():402] scan save: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\wandb-summary.json wandb-summary.json
+2024-01-26 13:29:59,601 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 10
+2024-01-26 13:29:59,602 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: poll_exit
+2024-01-26 13:29:59,602 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:29:59,603 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-26 13:29:59,604 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:29:59,604 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-26 13:29:59,604 INFO    SenderThread:17492 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-26 13:30:00,186 INFO    wandb-upload_1:17492 [upload_job.py:push():131] Uploaded file C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\output.log
+2024-01-26 13:30:00,425 INFO    wandb-upload_2:17492 [upload_job.py:push():131] Uploaded file C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\config.yaml
+2024-01-26 13:30:00,555 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-26 13:30:00,555 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: poll_exit
+2024-01-26 13:30:00,696 INFO    wandb-upload_3:17492 [upload_job.py:push():131] Uploaded file C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\requirements.txt
+2024-01-26 13:30:00,729 INFO    wandb-upload_4:17492 [upload_job.py:push():131] Uploaded file C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\files\wandb-summary.json
+2024-01-26 13:30:00,933 INFO    Thread-15 :17492 [sender.py:transition_state():617] send defer: 11
+2024-01-26 13:30:00,933 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:30:00,933 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-26 13:30:00,933 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:30:00,934 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-26 13:30:00,934 INFO    SenderThread:17492 [file_pusher.py:join():181] waiting for file pusher
+2024-01-26 13:30:00,934 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 12
+2024-01-26 13:30:00,934 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:30:00,934 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-26 13:30:00,934 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:30:00,934 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-26 13:30:00,934 INFO    SenderThread:17492 [file_stream.py:finish():595] file stream finish called
+2024-01-26 13:30:01,198 INFO    SenderThread:17492 [file_stream.py:finish():599] file stream finish is done
+2024-01-26 13:30:01,198 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 13
+2024-01-26 13:30:01,198 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:30:01,198 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-26 13:30:01,199 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:30:01,199 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-26 13:30:01,199 INFO    SenderThread:17492 [sender.py:transition_state():617] send defer: 14
+2024-01-26 13:30:01,199 DEBUG   SenderThread:17492 [sender.py:send():382] send: final
+2024-01-26 13:30:01,199 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: defer
+2024-01-26 13:30:01,199 DEBUG   SenderThread:17492 [sender.py:send():382] send: footer
+2024-01-26 13:30:01,199 INFO    HandlerThread:17492 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-26 13:30:01,199 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: defer
+2024-01-26 13:30:01,199 INFO    SenderThread:17492 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-26 13:30:01,200 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-26 13:30:01,200 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-26 13:30:01,200 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: poll_exit
+2024-01-26 13:30:01,200 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: server_info
+2024-01-26 13:30:01,201 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: poll_exit
+2024-01-26 13:30:01,201 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-26 13:30:01,201 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: server_info
+2024-01-26 13:30:01,201 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-26 13:30:01,202 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-26 13:30:01,203 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: job_info
+2024-01-26 13:30:01,449 DEBUG   SenderThread:17492 [sender.py:send_request():409] send_request: job_info
+2024-01-26 13:30:01,449 INFO    MainThread:17492 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-01-26 13:30:01,449 INFO    MainThread:17492 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-01-26 13:30:01,449 INFO    MainThread:17492 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-01-26 13:30:01,449 DEBUG   HandlerThread:17492 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-26 13:30:01,449 INFO    HandlerThread:17492 [handler.py:finish():869] shutting down handler
+2024-01-26 13:30:02,217 INFO    WriterThread:17492 [datastore.py:close():296] close: C:\Users\msari\Research\Project\snake\wandb\run-20240126_132946-r2a27rhj\run-r2a27rhj.wandb
+2024-01-26 13:30:02,453 INFO    SenderThread:17492 [sender.py:finish():1572] shutting down sender
+2024-01-26 13:30:02,453 INFO    SenderThread:17492 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-26 13:30:02,453 INFO    SenderThread:17492 [file_pusher.py:join():181] waiting for file pusher

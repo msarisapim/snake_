@@ -48,7 +48,7 @@
     "last_opened_file_path": "C:/Users/msari/Research/Project/snake"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.handtrack">
     <configuration name="handtrack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="snake" />
       <option name="INTERPRETER_OPTIONS" value="" />

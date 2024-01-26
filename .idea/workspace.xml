@@ -4,7 +4,118 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8094ad60-17e6-425b-bbef-83004d6121ba" name="Changes" comment="" />
+    <list default="true" id="8094ad60-17e6-425b-bbef-83004d6121ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/test_in_notebook-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data01.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/me/pim_001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/me/pim_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/me/pim_003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/me/pim_004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/me/pim_vid_01.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/labels.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/valid/labels.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/F1_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/PR_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/P_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/R_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/args.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/confusion_matrix_normalized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/labels_correlogram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/train_batch0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/train_batch1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/train_batch2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/train_batch9810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/train_batch9811.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/train_batch9812.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/val_batch0_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/val_batch0_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/val_batch1_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/val_batch1_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/val_batch2_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/val_batch2_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/weights/best.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/weights/last.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train23/weights/yolov8n.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/F1_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/PR_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/P_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/R_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/args.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/confusion_matrix_normalized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/labels_correlogram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/train_batch0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/train_batch1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/train_batch2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/val_batch0_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/val_batch0_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/val_batch1_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/val_batch1_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/val_batch2_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/val_batch2_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/weights/best.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train/weights/last.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/F1_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/PR_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/P_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/R_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/args.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/confusion_matrix_normalized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/labels_correlogram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/train_batch0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/train_batch1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/train_batch1090.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/train_batch1091.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/train_batch1092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/train_batch2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/val_batch0_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/val_batch0_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/val_batch1_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/val_batch1_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/val_batch2_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/val_batch2_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/weights/best.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect_hand/train2/weights/last.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_in_notebook.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/debug-cli.msari.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_121150-bhli0ptc/files/conda-environment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_121150-bhli0ptc/files/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_121150-bhli0ptc/files/output.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_121150-bhli0ptc/files/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_121150-bhli0ptc/files/wandb-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_121150-bhli0ptc/logs/debug-internal.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_121150-bhli0ptc/logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_121150-bhli0ptc/run-bhli0ptc.wandb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_132946-r2a27rhj/files/conda-environment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_132946-r2a27rhj/files/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_132946-r2a27rhj/files/output.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_132946-r2a27rhj/files/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_132946-r2a27rhj/files/wandb-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_132946-r2a27rhj/files/wandb-summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_132946-r2a27rhj/logs/debug-internal.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_132946-r2a27rhj/logs/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wandb/run-20240126_132946-r2a27rhj/run-r2a27rhj.wandb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov8n.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handtrack.py" beforeDir="false" afterPath="$PROJECT_DIR$/handtrack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/yolov8m.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/yolov8n-pose.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/yolov8n-seg.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/yolov8n.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/yolov8s.pt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,9 +140,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bTR8dsXx8gzgsol5opLNhU6miF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,14 +151,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/msari/Research/Project/snake"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/msari/Research/Project/snake&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\msari\Research\Project\snake" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.handtrack">
     <configuration name="handtrack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="snake" />

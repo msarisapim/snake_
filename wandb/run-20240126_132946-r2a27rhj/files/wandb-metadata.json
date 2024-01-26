@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.12",
+    "heartbeatAt": "2024-01-26T06:29:47.797499",
+    "startedAt": "2024-01-26T06:29:46.384480",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\msari\\Research\\Project\\snake\\handtrack.py",
+    "codePathLocal": "handtrack.py",
+    "codePath": "handtrack.py",
+    "git": {
+        "remote": "https://github.com/msarisapim/snake_game.git",
+        "commit": "e45f660002e9733770ae847adce2e1e033ff1dff"
+    },
+    "email": "msarisapim@gmail.com",
+    "root": "C:/Users/msari/Research/Project/snake",
+    "host": "PimDesktop",
+    "username": "msari",
+    "executable": "C:\\Users\\msari\\.conda\\envs\\pc_regist_o3d\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3400.0,
+        "min": 0.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3400.0,
+            "min": 0.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 930.7529258728027,
+            "used": 550.3900032043457
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Ti",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 31.747356414794922
+    }
+}

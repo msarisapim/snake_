@@ -1,7 +1,7 @@
 # Hand-track snake game with YOLOv8 object detection
 
 ## Overview
-Explore AI by developing a Snake game integrated with hand tracking control using Yolov8 and Pygame, showcasing a practical application of AI in game development.
+Enhanced understanding of AI programming fundamentals through the development of a Snake game. Integrated YOLOv8 for hand-tracking controls and utilized Pygame for game development, demonstrating the application of AI in creating interactive gaming experiences.
 
 1. **realtime_handtrack.py**: Train a hand tracking model with the YoloV8 model using a dataset that can be created from webcam/video footage.
 2. **extract_vdo2im.py**: Utility script for extracting images from video to create training data.
